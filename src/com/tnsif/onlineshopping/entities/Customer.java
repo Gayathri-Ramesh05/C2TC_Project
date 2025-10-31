@@ -25,4 +25,4 @@ package com.tnsif.onlineshopping.entities;
 	               ", address=" + address + "]";
 	    }
 	}
-}
+

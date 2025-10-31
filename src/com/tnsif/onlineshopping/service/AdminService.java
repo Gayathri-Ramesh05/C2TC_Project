@@ -1,6 +1,5 @@
 package com.tnsif.onlineshopping.service;
 
-
 import com.tnsif.onlineshopping.entities.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +14,7 @@ public class AdminService {
 
     public boolean createAdmin(Admin a) {
         if (admins.containsKey(a.getUserId())) return false;
-        admins.put(a.getUserId(), a);
+        admins.put((Integer) a.getUserId(), a);
         return true;
     }
 

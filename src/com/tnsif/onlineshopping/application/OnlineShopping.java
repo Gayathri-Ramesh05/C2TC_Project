@@ -1,9 +1,11 @@
 package com.tnsif.onlineshopping.application;
 
-	package com.tnsif.onlineshopping.application;
-
 	import com.tnsif.onlineshopping.entities.*;
-	import com.tnsif.onlineshopping.services.*;
+import com.tnsif.onlineshopping.service.AdminService;
+import com.tnsif.onlineshopping.service.CustomerService;
+import com.tnsif.onlineshopping.service.OrderService;
+import com.tnsif.onlineshopping.service.ProductService;
+import com.tnsif.onlineshopping.service.*;
 	import java.util.Scanner;
 
 	public class OnlineShopping {
@@ -226,4 +228,4 @@ package com.tnsif.onlineshopping.application;
 	        adminService.createAdmin(new Admin(1, "superadmin", "admin@shop.com"));
 	    }
 	}
-}
+
