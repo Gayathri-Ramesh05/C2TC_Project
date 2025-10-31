@@ -1,4 +1,4 @@
-package com.application;
+package com.tnsif.onlineshopping.application;
 
 	package com.tnsif.onlineshopping.application;
 
