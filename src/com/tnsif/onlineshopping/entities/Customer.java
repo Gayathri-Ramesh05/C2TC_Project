@@ -14,6 +14,7 @@ package com.tnsif.onlineshopping.entities;
 	    }
 
 	    public String getAddress() { return address; }
+	    
 	    public ShoppingCart getShoppingCart() { return shoppingCart; }
 	    public List<Order> getOrders() { return orders; }
 
